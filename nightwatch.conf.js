@@ -1,7 +1,7 @@
 const properties = require('./Nightwatch.props')
 module.exports = {
     "src_folders" : "tests",    
-   // "page_objects_path" : "pages",
+    "page_objects_path" : "./PageObject",
     "selenium" : {
       "start_process" : true,
       "server_path" : properties.resourcePath + properties.seleniumServer,
